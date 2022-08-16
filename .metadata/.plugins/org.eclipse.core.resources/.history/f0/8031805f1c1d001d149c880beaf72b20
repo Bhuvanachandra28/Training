@@ -1,0 +1,13 @@
+package com.hexaware.Servletjspdb;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+
+/**
+ * Servlet implementation class DBConnect
+ */
+@WebServlet("/DBConnect")
+public class DBConnect extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+}

@@ -1,0 +1,64 @@
+package com.hexaware.Servletjspdb;
+
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+
+/**
+ * Servlet implementation class LoginServlet
+ */
+@WebServlet("/LoginController")
+public class LoginController extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+	
+	private static Connection con=null;
+	private static PreparedStatement pstmt=null;
+	
+	@Override
+		protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+			con=DBConnect.getDBConnect();
+			PrintWriter pw=resp.getWriter();
+			if(con==null) {
+				pw.println("no connection Established");
+			}else {
+				pw.println(" connection Established");
+			}
+			
+			try {
+				Integer logId = Integer.parseInt((req.getParameter("username")));
+				String LogPassword = (req.getParameter("password"));
+				pw.println(logId);
+				pw.println(LogPassword);
+				
+				
+				pstmt=con.prepareStatement("select * from logindetails where cusId=?");
+				pstmt.setInt(1,logId);
+				ResultSet rs = pstmt.executeQuery();
+				while(rs.next()) {
+					if(logId.equals(rs.getInt("username")) && LogPassword.equals(rs.getString("password")) ) {
+						
+					pw.println("Login success");
+					resp.sendRedirect("jsp/product.jsp");
+					}
+				}
+				
+				resp.sendRedirect("jsp/signup.jsp");
+				
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
+		}
+
+}

@@ -558,3 +558,307 @@ java.lang.Exception: A resource exists with a different case: '/Servletjspdb/src
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-12 18:43:33.012
 !MESSAGE executing callback sts4.classpath.OyjSpAcb SUCCESS [done]
+!SESSION 2022-08-16 09:11:50.621 -----------------------------------------------
+eclipse.buildId=4.4.2.201911201053-RELEASE
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2022-08-16 09:11:57.863
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-08-16 09:11:57.863
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5d15789f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5abb7a8f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-08-16 09:12:05.504
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\bchan'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:14:43.028
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:14:43.029
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@65011123[org.springframework.tooling.boot.ls:1.13.0.201911200938(id=632)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:14:43.032
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:14:43.080
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:14:46.802
+!MESSAGE Boot LS startup time from start to initialized: 3761ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:14:46.848
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.vDJTxKudisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:14:46.858
+!MESSAGE subscribing to classpath changes: sts4.classpath.vDJTxKud isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:14:46.861
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:14:46.864
+!MESSAGE subsribers = {sts4.classpath.vDJTxKud=Send Classpath Notifications(112)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:14:46.865
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:14:46.867
+!MESSAGE project Firstproject ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:14:46.868
+!MESSAGE project Servletjspdb ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:14:46.869
+!MESSAGE Preparing classpath changed notification Firstproject
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:14:46.870
+!MESSAGE project Servers ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:14:46.871
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:14:46.872
+!MESSAGE project Servers SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:14:46.873
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:14:46.874
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.vDJTxKud => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:14:46.876
+!MESSAGE classpath=44 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:14:46.879
+!MESSAGE buffering callback sts4.classpath.vDJTxKud Firstproject false 44
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:14:46.881
+!MESSAGE Preparing classpath changed notification Servletjspdb
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:14:46.882
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:14:46.884
+!MESSAGE classpath=45 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:14:46.888
+!MESSAGE buffering callback sts4.classpath.vDJTxKud Servletjspdb false 45
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:14:46.889
+!MESSAGE executing callback sts4.classpath.vDJTxKud 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:14:46.929
+!MESSAGE executing callback sts4.classpath.vDJTxKud SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:15:50.975
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.vDJTxKud
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:15:50.976
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.vDJTxKud
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:15:50.977
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:15:50.979
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.vDJTxKud => OK
+
+!ENTRY org.eclipse.ui 2 2 2022-08-16 09:16:33.432
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:20:21.356
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:20:21.358
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@65011123[org.springframework.tooling.boot.ls:1.13.0.201911200938(id=632)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:20:21.359
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:20:23.401
+!MESSAGE Boot LS startup time from start to initialized: 2040ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:20:23.425
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.cZxkoOATisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:20:23.426
+!MESSAGE subscribing to classpath changes: sts4.classpath.cZxkoOAT isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:20:23.428
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:20:23.428
+!MESSAGE subsribers = {sts4.classpath.cZxkoOAT=Send Classpath Notifications(183)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:20:23.429
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:20:23.429
+!MESSAGE project Servletjspdb ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:20:23.431
+!MESSAGE Preparing classpath changed notification Servletjspdb
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:20:23.431
+!MESSAGE project Firstproject ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:20:23.432
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:20:23.433
+!MESSAGE project Servers ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:20:23.434
+!MESSAGE classpath=45 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:20:23.434
+!MESSAGE project Servers SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:20:23.435
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:20:23.436
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.cZxkoOAT => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:20:23.437
+!MESSAGE buffering callback sts4.classpath.cZxkoOAT Servletjspdb false 45
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:20:23.438
+!MESSAGE Preparing classpath changed notification Firstproject
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:20:23.440
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:20:23.441
+!MESSAGE classpath=44 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:20:23.444
+!MESSAGE buffering callback sts4.classpath.cZxkoOAT Firstproject false 44
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:20:23.445
+!MESSAGE executing callback sts4.classpath.cZxkoOAT 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-08-16 09:20:23.493
+!MESSAGE executing callback sts4.classpath.cZxkoOAT SUCCESS [done]
+
+!ENTRY org.eclipse.wst.server.core 4 0 2022-08-16 10:04:19.390
+!MESSAGE Server Tomcat v7.0 Server at localhost failed to start.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2022-08-16 10:04:39.860
+!MESSAGE Server Tomcat v7.0 Server at localhost failed to start.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2022-08-16 10:05:55.681
+!MESSAGE Server Tomcat v7.0 Server at localhost failed to start.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2022-08-16 10:06:14.122
+!MESSAGE Server Tomcat v7.0 Server at localhost failed to start.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2022-08-16 10:08:40.373
+!MESSAGE Server Tomcat v7.0 Server at localhost failed to start.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2022-08-16 10:19:29.843
+!MESSAGE Server Tomcat v7.0 Server at localhost failed to start.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2022-08-16 10:21:58.658
+!MESSAGE Server Tomcat v7.0 Server at localhost failed to start.
+
+!ENTRY org.eclipse.ui.navigator 4 0 2022-08-16 10:23:00.229
+!MESSAGE Cannot find navigator content extension (using triggerPoints) for object "<null>" parent path: "P/Servers".  Check that you have an expression for this object in a navigatorContent triggerPoints or enablement.
+
+!ENTRY org.eclipse.ui.navigator 4 0 2022-08-16 10:23:00.235
+!MESSAGE Cannot find navigator content extension (using triggerPoints) for object "<null>" parent path: "P/Servers".  Check that you have an expression for this object in a navigatorContent triggerPoints or enablement.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2022-08-16 10:23:20.347
+!MESSAGE Server Tomcat v7.0 Server at localhost failed to start.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2022-08-16 10:23:41.843
+!MESSAGE Server Tomcat v7.0 Server at localhost failed to start.
+
+!ENTRY org.eclipse.ui.navigator 4 0 2022-08-16 10:26:43.913
+!MESSAGE Cannot find navigator content extension (using triggerPoints) for object "<null>" parent path: "P/Servers".  Check that you have an expression for this object in a navigatorContent triggerPoints or enablement.
+
+!ENTRY org.eclipse.ui.navigator 4 0 2022-08-16 10:26:43.921
+!MESSAGE Cannot find navigator content extension (using triggerPoints) for object "<null>" parent path: "P/Servers".  Check that you have an expression for this object in a navigatorContent triggerPoints or enablement.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2022-08-16 10:27:10.480
+!MESSAGE Server Tomcat v7.0 Server at localhost failed to start.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2022-08-16 10:29:35.091
+!MESSAGE Server Tomcat v7.0 Server at localhost failed to start.
+
+!ENTRY org.eclipse.ui.navigator 4 0 2022-08-16 10:41:33.604
+!MESSAGE Cannot find navigator content extension (using triggerPoints) for object "<null>" parent path: "P/Servers".  Check that you have an expression for this object in a navigatorContent triggerPoints or enablement.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2022-08-16 10:41:38.347
+!MESSAGE Server Tomcat v7.0 Server at localhost (2) failed to start.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2022-08-16 10:44:58.100
+!MESSAGE Server Tomcat v7.0 Server at localhost failed to start.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2022-08-16 10:50:56.887
+!MESSAGE Server Tomcat v7.0 Server at localhost failed to start.
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-08-16 10:51:21.320
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.springframework.tooling.boot.ls.jdt.LSPTextHover.getHoverInfo(LSPTextHover.java:109)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.eclipse.wst.server.core 4 0 2022-08-16 10:51:50.281
+!MESSAGE Server Tomcat v7.0 Server at localhost failed to start.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2022-08-16 10:52:48.139
+!MESSAGE Server Tomcat v7.0 Server at localhost failed to start.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2022-08-16 10:54:25.047
+!MESSAGE Server Tomcat v7.0 Server at localhost failed to start.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2022-08-16 10:57:28.462
+!MESSAGE Server Tomcat v7.0 Server at localhost failed to start.
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-08-16 10:57:54.298
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.springframework.tooling.boot.ls.jdt.LSPTextHover.getHoverInfo(LSPTextHover.java:109)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.eclipse.wst.server.core 4 0 2022-08-16 10:58:24.377
+!MESSAGE Server Tomcat v7.0 Server at localhost failed to start.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2022-08-16 10:59:29.583
+!MESSAGE Server Tomcat v7.0 Server at localhost failed to start.
