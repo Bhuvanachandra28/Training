@@ -1,0 +1,14 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <bean id="helloWorldBean" class="com.hexaware.mavenspringapp.HelloWorldSpring">
+        <property name="userName" value="Bhuvana" />
+    </bean>
+    
+     <bean id="quotationBean" class="com.hexaware.mavenspringapp.Quotation">
+        <property name="quote" value="Bhuvana hello how r u" />
+    </bean>
+
+</beans>

@@ -1,1 +1,310 @@
 2022-08-12 10:51:13,974 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2022-08-16 09:12:05,142 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-08-16 12:38:18,038 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.jar
+2022-08-16 12:38:18,402 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.jar
+2022-08-16 12:38:18,564 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.pom
+2022-08-16 12:38:18,725 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.pom
+2022-08-16 12:38:37,185 [Worker-96: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\pom.xml
+2022-08-16 12:38:38,323 [Worker-96: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.hexaware:mavenspringapp:0.0.1-SNAPSHOT @ C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\pom.xml.
+2022-08-16 12:38:39,072 [Worker-96: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mavenspringapp/src/main/java
+2022-08-16 12:38:39,077 [Worker-96: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mavenspringapp/src/test/java
+2022-08-16 12:38:39,209 [Worker-96: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2022-08-16 12:38:40,272 [Worker-94: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 12:38:40,272 [Worker-94: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\main\resources
+2022-08-16 12:38:40,274 [Worker-94: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 12:38:40,274 [Worker-94: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\test\resources
+2022-08-16 12:38:40,635 [Worker-98: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/junit/junit/3.8.1/junit-3.8.1-sources.jar
+2022-08-16 12:38:40,985 [Worker-98: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/3.8.1/junit-3.8.1-sources.jar
+2022-08-16 12:38:41,064 [Worker-98: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for junit:junit:3.8.1
+2022-08-16 12:38:41,072 [Worker-98: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for junit:junit:3.8.1
+2022-08-16 12:38:41,334 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 12:38:41,334 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\main\resources
+2022-08-16 12:38:41,336 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 12:38:41,337 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\test\resources
+2022-08-16 12:51:04,058 [Worker-101: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.hexaware:mavenspringapp:0.0.1-SNAPSHOT @ C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\pom.xml.
+2022-08-16 12:51:04,968 [Worker-101: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.3.10.RELEASE/spring-core-4.3.10.RELEASE.pom
+2022-08-16 12:51:05,162 [Worker-101: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.3.10.RELEASE/spring-core-4.3.10.RELEASE.pom
+2022-08-16 12:51:05,630 [Worker-101: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.pom
+2022-08-16 12:51:05,834 [Worker-101: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.pom
+2022-08-16 12:51:06,011 [Worker-101: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/34/commons-parent-34.pom
+2022-08-16 12:51:06,372 [Worker-101: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/34/commons-parent-34.pom
+2022-08-16 12:51:06,638 [Worker-101: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.3.10.RELEASE/spring-core-4.3.10.RELEASE.jar
+2022-08-16 12:51:07,527 [Worker-101: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.3.10.RELEASE/spring-core-4.3.10.RELEASE.jar
+2022-08-16 12:51:07,697 [Worker-101: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+2022-08-16 12:51:07,877 [Worker-101: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+2022-08-16 12:51:08,586 [Worker-101: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 12:51:08,587 [Worker-101: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\main\resources
+2022-08-16 12:51:08,591 [Worker-101: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 12:51:08,592 [Worker-101: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\test\resources
+2022-08-16 12:51:09,945 [Worker-98: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.3.10.RELEASE/spring-core-4.3.10.RELEASE-sources.jar
+2022-08-16 12:51:10,415 [Worker-104: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 12:51:10,415 [Worker-104: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\main\resources
+2022-08-16 12:51:10,417 [Worker-104: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 12:51:10,418 [Worker-104: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\test\resources
+2022-08-16 12:51:10,760 [Worker-98: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.3.10.RELEASE/spring-core-4.3.10.RELEASE-sources.jar
+2022-08-16 12:51:10,819 [Worker-98: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-core:4.3.10.RELEASE
+2022-08-16 12:51:11,421 [Worker-98: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar
+2022-08-16 12:51:11,755 [Worker-98: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar
+2022-08-16 12:51:11,811 [Worker-98: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-logging:commons-logging:1.2
+2022-08-16 12:51:12,047 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 12:51:12,047 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\main\resources
+2022-08-16 12:51:12,051 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 12:51:12,052 [Worker-98: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\test\resources
+2022-08-16 12:52:29,409 [Worker-101: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.hexaware:mavenspringapp:0.0.1-SNAPSHOT @ C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\pom.xml.
+2022-08-16 12:52:30,616 [Worker-101: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.3.10.RELEASE/spring-context-4.3.10.RELEASE.pom
+2022-08-16 12:52:30,841 [Worker-101: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.3.10.RELEASE/spring-context-4.3.10.RELEASE.pom
+2022-08-16 12:52:31,067 [Worker-101: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.3.10.RELEASE/spring-aop-4.3.10.RELEASE.pom
+2022-08-16 12:52:31,296 [Worker-101: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.3.10.RELEASE/spring-aop-4.3.10.RELEASE.pom
+2022-08-16 12:52:31,528 [Worker-101: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.3.10.RELEASE/spring-beans-4.3.10.RELEASE.pom
+2022-08-16 12:52:31,771 [Worker-101: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.3.10.RELEASE/spring-beans-4.3.10.RELEASE.pom
+2022-08-16 12:52:32,007 [Worker-101: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.3.10.RELEASE/spring-expression-4.3.10.RELEASE.pom
+2022-08-16 12:52:32,234 [Worker-101: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.3.10.RELEASE/spring-expression-4.3.10.RELEASE.pom
+2022-08-16 12:52:32,465 [Worker-101: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.3.10.RELEASE/spring-context-4.3.10.RELEASE.jar
+2022-08-16 12:52:33,724 [Worker-101: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.3.10.RELEASE/spring-context-4.3.10.RELEASE.jar
+2022-08-16 12:52:33,942 [Worker-101: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.3.10.RELEASE/spring-aop-4.3.10.RELEASE.jar
+2022-08-16 12:52:34,205 [Worker-101: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.3.10.RELEASE/spring-aop-4.3.10.RELEASE.jar
+2022-08-16 12:52:34,432 [Worker-101: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.3.10.RELEASE/spring-beans-4.3.10.RELEASE.jar
+2022-08-16 12:52:34,753 [Worker-101: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.3.10.RELEASE/spring-beans-4.3.10.RELEASE.jar
+2022-08-16 12:52:34,970 [Worker-101: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.3.10.RELEASE/spring-expression-4.3.10.RELEASE.jar
+2022-08-16 12:52:35,213 [Worker-101: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.3.10.RELEASE/spring-expression-4.3.10.RELEASE.jar
+2022-08-16 12:52:35,663 [Worker-101: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 12:52:35,664 [Worker-101: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\main\resources
+2022-08-16 12:52:35,666 [Worker-101: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 12:52:35,666 [Worker-101: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\test\resources
+2022-08-16 12:52:37,203 [Worker-103: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 12:52:37,203 [Worker-103: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\main\resources
+2022-08-16 12:52:37,205 [Worker-103: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 12:52:37,206 [Worker-103: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\test\resources
+2022-08-16 12:52:37,356 [Worker-101: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.3.10.RELEASE/spring-context-4.3.10.RELEASE-sources.jar
+2022-08-16 12:52:38,610 [Worker-101: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.3.10.RELEASE/spring-context-4.3.10.RELEASE-sources.jar
+2022-08-16 12:52:38,645 [Worker-101: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-context:4.3.10.RELEASE
+2022-08-16 12:52:39,498 [Worker-101: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.3.10.RELEASE/spring-aop-4.3.10.RELEASE-sources.jar
+2022-08-16 12:52:40,410 [Worker-101: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.3.10.RELEASE/spring-aop-4.3.10.RELEASE-sources.jar
+2022-08-16 12:52:40,443 [Worker-101: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-aop:4.3.10.RELEASE
+2022-08-16 12:52:41,298 [Worker-101: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.3.10.RELEASE/spring-beans-4.3.10.RELEASE-sources.jar
+2022-08-16 12:52:42,427 [Worker-101: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.3.10.RELEASE/spring-beans-4.3.10.RELEASE-sources.jar
+2022-08-16 12:52:42,464 [Worker-101: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-beans:4.3.10.RELEASE
+2022-08-16 12:52:43,336 [Worker-101: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.3.10.RELEASE/spring-expression-4.3.10.RELEASE-sources.jar
+2022-08-16 12:52:44,060 [Worker-101: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.3.10.RELEASE/spring-expression-4.3.10.RELEASE-sources.jar
+2022-08-16 12:52:44,091 [Worker-101: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-expression:4.3.10.RELEASE
+2022-08-16 12:52:44,271 [Worker-105: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 12:52:44,271 [Worker-105: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\main\resources
+2022-08-16 12:52:44,272 [Worker-105: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 12:52:44,272 [Worker-105: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\test\resources
+2022-08-16 12:53:33,155 [Worker-108: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.hexaware:mavenspringapp:0.0.1-SNAPSHOT @ C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\pom.xml.
+2022-08-16 12:53:33,623 [Worker-108: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 12:53:33,624 [Worker-108: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\main\resources
+2022-08-16 12:53:33,626 [Worker-108: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 12:53:33,627 [Worker-108: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\test\resources
+2022-08-16 12:58:28,043 [Worker-110: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.hexaware:mavenspringapp:0.0.1-SNAPSHOT @ C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\pom.xml.
+2022-08-16 12:58:28,235 [Worker-110: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 12:58:28,236 [Worker-110: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\main\resources
+2022-08-16 12:58:28,240 [Worker-110: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 12:58:28,240 [Worker-110: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\test\resources
+2022-08-16 12:58:29,590 [Worker-105: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 12:58:29,590 [Worker-105: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\main\resources
+2022-08-16 12:58:29,592 [Worker-105: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 12:58:29,592 [Worker-105: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\test\resources
+2022-08-16 12:59:00,894 [Worker-110: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.hexaware:mavenspringapp:0.0.1-SNAPSHOT @ C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\pom.xml.
+2022-08-16 12:59:01,106 [Worker-110: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 12:59:01,106 [Worker-110: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\main\resources
+2022-08-16 12:59:01,108 [Worker-110: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 12:59:01,109 [Worker-110: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\test\resources
+2022-08-16 12:59:02,484 [Worker-105: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 12:59:02,484 [Worker-105: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\main\resources
+2022-08-16 12:59:02,486 [Worker-105: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 12:59:02,487 [Worker-105: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\test\resources
+2022-08-16 13:01:54,767 [Worker-112: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-08-16 13:01:55,215 [Worker-112: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.hexaware:mavenspringapp:0.0.1-SNAPSHOT @ C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\pom.xml.
+2022-08-16 13:01:55,405 [Worker-112: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mavenspringapp/src/main/java
+2022-08-16 13:01:55,406 [Worker-112: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mavenspringapp/src/test/java
+2022-08-16 13:01:55,525 [Worker-112: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2022-08-16 13:01:55,757 [Worker-113: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 13:01:55,758 [Worker-113: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\main\resources
+2022-08-16 13:01:55,759 [Worker-113: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 13:01:55,759 [Worker-113: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\test\resources
+2022-08-16 13:02:47,550 [Worker-105: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-08-16 13:02:47,963 [Worker-105: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.hexaware:mavenspringapp:0.0.1-SNAPSHOT @ C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\pom.xml.
+2022-08-16 13:02:48,115 [Worker-105: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mavenspringapp/src/main/java
+2022-08-16 13:02:48,115 [Worker-105: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mavenspringapp/src/test/java
+2022-08-16 13:02:48,216 [Worker-105: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2022-08-16 13:02:48,399 [Worker-105: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 13:02:48,399 [Worker-105: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\main\resources
+2022-08-16 13:02:48,401 [Worker-105: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 13:02:48,402 [Worker-105: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\test\resources
+2022-08-16 13:03:49,275 [Worker-113: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.hexaware:mavenspringapp:0.0.1-SNAPSHOT @ C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\pom.xml.
+2022-08-16 13:03:49,432 [Worker-113: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 13:03:49,433 [Worker-113: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\main\resources
+2022-08-16 13:03:49,435 [Worker-113: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 13:03:49,435 [Worker-113: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\test\resources
+2022-08-16 13:03:50,741 [Worker-114: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 13:03:50,742 [Worker-114: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\main\resources
+2022-08-16 13:03:50,743 [Worker-114: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 13:03:50,744 [Worker-114: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\test\resources
+2022-08-16 13:04:05,291 [Worker-112: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-08-16 13:04:05,707 [Worker-112: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.hexaware:mavenspringapp:0.0.1-SNAPSHOT @ C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\pom.xml.
+2022-08-16 13:04:05,870 [Worker-112: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mavenspringapp/src/main/java
+2022-08-16 13:04:05,871 [Worker-112: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mavenspringapp/src/test/java
+2022-08-16 13:04:05,973 [Worker-112: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2022-08-16 13:04:06,160 [Worker-115: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 13:04:06,161 [Worker-115: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\main\resources
+2022-08-16 13:04:06,162 [Worker-115: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 13:04:06,163 [Worker-115: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\test\resources
+2022-08-16 13:05:32,022 [Worker-82: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-08-16 13:05:32,410 [Worker-82: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.hexaware:mavenspringapp:0.0.1-SNAPSHOT @ C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\pom.xml.
+2022-08-16 13:05:32,636 [Worker-82: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mavenspringapp/src/main/java
+2022-08-16 13:05:32,636 [Worker-82: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mavenspringapp/src/test/java
+2022-08-16 13:05:32,776 [Worker-82: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2022-08-16 13:05:33,030 [Worker-116: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 13:05:33,031 [Worker-116: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\main\resources
+2022-08-16 13:05:33,034 [Worker-116: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 13:05:33,034 [Worker-116: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\test\resources
+2022-08-16 13:05:47,810 [Worker-82: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.hexaware:mavenspringapp:0.0.1-SNAPSHOT @ C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\pom.xml.
+2022-08-16 13:05:47,934 [Worker-82: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 13:05:47,935 [Worker-82: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\main\resources
+2022-08-16 13:05:47,936 [Worker-82: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 13:05:47,936 [Worker-82: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\test\resources
+2022-08-16 13:05:49,185 [Worker-82: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 13:05:49,185 [Worker-82: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\main\resources
+2022-08-16 13:05:49,186 [Worker-82: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 13:05:49,186 [Worker-82: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\test\resources
+2022-08-16 13:44:02,850 [Worker-120: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\pom.xml
+2022-08-16 13:44:03,445 [Worker-120: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.hexaware:mavenspringapp:0.0.1-SNAPSHOT @ C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\pom.xml.
+2022-08-16 13:44:03,868 [Worker-120: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mavenspringapp/src/main/java
+2022-08-16 13:44:03,875 [Worker-120: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mavenspringapp/src/test/java
+2022-08-16 13:44:03,976 [Worker-120: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2022-08-16 13:44:04,384 [Worker-105: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 13:44:04,384 [Worker-105: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\main\resources
+2022-08-16 13:44:04,386 [Worker-105: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 13:44:04,386 [Worker-105: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\test\resources
+2022-08-16 13:55:42,141 [Worker-125: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.hexaware:mavenspringapp:0.0.1-SNAPSHOT @ C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\pom.xml.
+2022-08-16 13:55:42,467 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 13:55:42,467 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\main\resources
+2022-08-16 13:55:42,468 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 13:55:42,469 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\test\resources
+2022-08-16 13:55:43,929 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 13:55:43,930 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\main\resources
+2022-08-16 13:55:43,931 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 13:55:43,931 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\test\resources
+2022-08-16 13:56:05,553 [Worker-121: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-08-16 13:56:05,935 [Worker-121: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.hexaware:mavenspringapp:0.0.1-SNAPSHOT @ C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\pom.xml.
+2022-08-16 13:56:06,076 [Worker-121: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mavenspringapp/src/main/java
+2022-08-16 13:56:06,077 [Worker-121: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mavenspringapp/src/test/java
+2022-08-16 13:56:06,179 [Worker-121: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2022-08-16 13:56:06,379 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 13:56:06,380 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\main\resources
+2022-08-16 13:56:06,381 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 13:56:06,381 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\test\resources
+2022-08-16 14:08:58,852 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 14:08:58,853 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\main\resources
+2022-08-16 14:08:58,858 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 14:08:58,859 [Worker-125: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\test\resources
+2022-08-16 14:21:09,721 [Worker-134: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 14:21:09,722 [Worker-134: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\main\resources
+2022-08-16 14:21:09,724 [Worker-134: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 14:21:09,724 [Worker-134: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\test\resources
+2022-08-16 14:27:32,905 [Worker-121: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 14:27:32,906 [Worker-121: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\main\resources
+2022-08-16 14:27:32,908 [Worker-121: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 14:27:32,909 [Worker-121: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\test\resources
+2022-08-16 14:31:50,654 [Worker-139: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 14:31:50,699 [Worker-139: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-16 14:31:50,704 [Worker-139: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 14:31:50,704 [Worker-139: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\test\resources
+2022-08-16 14:31:59,181 [Worker-140: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 14:31:59,182 [Worker-140: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-16 14:31:59,183 [Worker-140: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 14:31:59,183 [Worker-140: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\test\resources
+2022-08-16 14:40:53,435 [Worker-144: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 14:40:53,438 [Worker-144: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-16 14:40:53,495 [Worker-144: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 14:40:53,496 [Worker-144: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\test\resources
+2022-08-16 14:52:22,665 [Worker-148: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 14:52:22,665 [Worker-148: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-16 14:52:22,670 [Worker-148: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 14:52:22,671 [Worker-148: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\test\resources
+2022-08-16 15:02:25,471 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 15:02:25,472 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-16 15:02:25,475 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 15:02:25,475 [Worker-149: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\test\resources
+2022-08-16 15:08:27,906 [Worker-152: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 15:08:27,907 [Worker-152: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-16 15:08:27,913 [Worker-152: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 15:08:27,913 [Worker-152: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\test\resources
+2022-08-16 15:22:25,184 [Worker-156: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 15:22:25,185 [Worker-156: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-16 15:22:25,187 [Worker-156: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 15:22:25,187 [Worker-156: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\test\resources
+2022-08-16 15:25:08,232 [Worker-154: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 15:25:08,234 [Worker-154: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-16 15:25:08,235 [Worker-154: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 15:25:08,235 [Worker-154: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\test\resources
+2022-08-16 15:26:50,492 [Worker-158: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 15:26:50,492 [Worker-158: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-16 15:26:50,494 [Worker-158: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 15:26:50,494 [Worker-158: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\test\resources
+2022-08-16 15:28:41,087 [Worker-158: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 15:28:41,091 [Worker-158: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-16 15:28:41,109 [Worker-158: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 15:28:41,110 [Worker-158: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\test\resources
+2022-08-16 15:33:10,629 [Worker-164: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 15:33:10,632 [Worker-164: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-16 15:33:10,635 [Worker-164: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 15:33:10,636 [Worker-164: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\test\resources
+2022-08-16 15:34:57,216 [Worker-165: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 15:34:57,217 [Worker-165: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-16 15:34:57,219 [Worker-165: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 15:34:57,219 [Worker-165: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp\src\test\resources
+2022-08-16 17:08:16,806 [Worker-167: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp2\pom.xml
+2022-08-16 17:08:17,609 [Worker-167: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.hexaware:mavenspringapp2:0.0.1-SNAPSHOT @ C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp2\pom.xml.
+2022-08-16 17:08:17,988 [Worker-167: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mavenspringapp2/src/main/java
+2022-08-16 17:08:18,000 [Worker-167: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mavenspringapp2/src/test/java
+2022-08-16 17:08:18,267 [Worker-167: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2022-08-16 17:08:19,134 [Worker-164: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 17:08:19,135 [Worker-164: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp2\src\main\resources
+2022-08-16 17:08:19,140 [Worker-164: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 17:08:19,140 [Worker-164: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp2\src\test\resources
+2022-08-16 17:08:58,370 [Worker-168: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 17:08:58,373 [Worker-168: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-16 17:08:58,381 [Worker-168: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 17:08:58,381 [Worker-168: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp2\src\test\resources
+2022-08-16 17:10:19,213 [Worker-169: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.hexaware:mavenspringapp2:0.0.1-SNAPSHOT @ C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp2\pom.xml.
+2022-08-16 17:10:19,533 [Worker-169: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 17:10:19,534 [Worker-169: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-16 17:10:19,537 [Worker-169: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 17:10:19,537 [Worker-169: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp2\src\test\resources
+2022-08-16 17:10:20,893 [Worker-166: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 17:10:20,931 [Worker-166: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-16 17:10:20,933 [Worker-166: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 17:10:20,933 [Worker-166: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp2\src\test\resources
+2022-08-16 17:11:10,042 [Worker-167: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 17:11:10,043 [Worker-167: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-16 17:11:10,044 [Worker-167: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 17:11:10,045 [Worker-167: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp2\src\test\resources
+2022-08-16 17:12:08,677 [Worker-167: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 17:12:08,677 [Worker-167: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-16 17:12:08,680 [Worker-167: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 17:12:08,680 [Worker-167: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp2\src\test\resources
+2022-08-16 17:12:25,069 [Worker-170: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 17:12:25,069 [Worker-170: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-16 17:12:25,071 [Worker-170: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 17:12:25,071 [Worker-170: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp2\src\test\resources
+2022-08-16 17:12:36,848 [Worker-170: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 17:12:36,848 [Worker-170: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-16 17:12:36,851 [Worker-170: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 17:12:36,851 [Worker-170: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp2\src\test\resources
+2022-08-16 17:12:48,622 [Worker-170: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 17:12:48,623 [Worker-170: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-16 17:12:48,625 [Worker-170: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 17:12:48,625 [Worker-170: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp2\src\test\resources
+2022-08-16 17:13:55,536 [Worker-167: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 17:13:55,537 [Worker-167: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-16 17:13:55,543 [Worker-167: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 17:13:55,546 [Worker-167: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp2\src\test\resources
+2022-08-16 17:14:13,106 [Worker-170: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 17:14:13,107 [Worker-170: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-16 17:14:13,111 [Worker-170: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 17:14:13,111 [Worker-170: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\bchan\Documents\workspace-spring-tool-suite-4-4.4.2.RELEASE\mavenspringapp2\src\test\resources
+2022-08-16 17:14:20,630 [Worker-169: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-16 17:14:20,631 [Worker-169: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-16 17:14:20,635 [Worker-169: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.

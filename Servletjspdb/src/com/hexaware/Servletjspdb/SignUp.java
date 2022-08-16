@@ -35,12 +35,12 @@ public class SignUp extends HttpServlet {
 				pstmt= conn.prepareStatement("insert into signup values(?,?)");
 				
 				
-				String stdname = req.getParameter("username");
-				String stdpass = req.getParameter("password");
+				String username = req.getParameter("username");
+				String password = req.getParameter("password");
 			
 				
-				pstmt.setString(1, stdname);
-				pstmt.setString(2, stdpass);
+				pstmt.setString(1, username);
+				pstmt.setString(2, password);
 				
 				int i = pstmt.executeUpdate();
 				if(i!=0) {

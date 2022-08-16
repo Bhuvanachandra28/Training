@@ -32,3 +32,11 @@
 0:0:0:0:0:0:0:1 - - [16/Aug/2022:12:12:15 +0530] "GET /Servletjspdb/jsppages/logintoday.jsp HTTP/1.1" 200 428
 0:0:0:0:0:0:0:1 - - [16/Aug/2022:12:12:31 +0530] "POST /Servletjspdb/LoginController HTTP/1.1" 302 -
 0:0:0:0:0:0:0:1 - - [16/Aug/2022:12:12:31 +0530] "GET /Servletjspdb/Servletjspdb/product.jsp HTTP/1.1" 404 751
+127.0.0.1 - - [16/Aug/2022:12:13:20 +0530] "GET / HTTP/1.1" 404 748
+0:0:0:0:0:0:0:1 - - [16/Aug/2022:12:13:21 +0530] "GET /Servletjspdb/jsppages/logintoday.jsp HTTP/1.1" 200 428
+0:0:0:0:0:0:0:1 - - [16/Aug/2022:12:13:33 +0530] "POST /Servletjspdb/LoginController HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [16/Aug/2022:12:13:33 +0530] "GET /Servletjspdb/jsppages/product.jsp HTTP/1.1" 200 149
+0:0:0:0:0:0:0:1 - - [16/Aug/2022:12:17:45 +0530] "GET /Servletjspdb/jsppages/logintoday.jsp HTTP/1.1" 200 428
+0:0:0:0:0:0:0:1 - - [16/Aug/2022:12:18:01 +0530] "POST /Servletjspdb/LoginController HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [16/Aug/2022:12:18:01 +0530] "GET /Servletjspdb/jsppages/signup.jsp HTTP/1.1" 200 418
+0:0:0:0:0:0:0:1 - - [16/Aug/2022:12:18:09 +0530] "POST /Servletjspdb/SignUp HTTP/1.1" 404 767
