@@ -1,0 +1,221 @@
+public class Product implements Comparable<Product> {
+    private int productId;
+    private String productName;
+    private int quantity;
+
+    public Product(int productId, String productName, int quantity) {
+        this.productId = productId;
+        this.productName = productName;
+        this.quantity = quantity;
+    }
+
+    public int getProductId() {
+        return productId;
+    }
+
+    public String getProductName() {
+        return productName;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
+
+    @Override
+    public int compareTo(Product other) {
+        return this.productName.compareTo(other.getProductName());
+    }
+}
+
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Store {
+    private String storeName;
+    private List<Product> productList;
+
+    public Store(String storeName) {
+        this.storeName = storeName;
+        this.productList = new ArrayList<>();
+    }
+
+    public String getStoreName() {
+        return storeName;
+    }
+
+    public List<Product> getProductList() {
+        return productList;
+    }
+
+    public void addProduct(Product product) {
+        productList.add(product);
+    }
+}
+
+
+import java.util.List;
+
+public interface IStoreServiceProvider {
+    boolean addProduct(Product product);
+
+    List<Product> returnSortedList();
+
+    Product searchProduct(int productId);
+
+    double purchaseProduct(int productId, int quantity) throws OutOfStockException;
+}
+
+
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class StoreServiceProviderImpl implements IStoreServiceProvider {
+    private Store store;
+
+    public StoreServiceProviderImpl(Store store) {
+        this.store = store;
+    }
+
+    @Override
+    public boolean addProduct(Product product) {
+        return store.getProductList().add(product);
+    }
+
+    @Override
+    public List<Product> returnSortedList() {
+        List<Product> sortedList = new ArrayList<>(store.getProductList());
+        Collections.sort(sortedList);
+        return sortedList;
+    }
+
+    @Override
+    public Product searchProduct(int productId) {
+        for (Product product : store.getProductList()) {
+            if (product.getProductId() == productId) {
+                return product;
+            }
+        }
+        return null;
+    }
+
+    @Override
+    public double purchaseProduct(int productId, int quantity) throws OutOfStockException {
+        Product product = searchProduct(productId);
+        if (product != null) {
+            if (product.getQuantity() >= quantity) {
+                double billAmount = calculateBillAmount(product, quantity);
+                product.setQuantity(product.getQuantity() - quantity);
+                return billAmount;
+            } else {
+                throw new OutOfStockException("Insufficient quantity of product " + product.getProductName());
+            }
+        } else {
+            throw new ProductNotFoundException("Product with ID " + productId + " not found");
+        }
+    }
+
+    private double calculateBillAmount(Product product, int quantity) {
+        // Calculate bill amount based on product price and quantity
+        // Assuming product price is fixed for simplicity
+        double pricePerUnit = 10.0; // Replace with actual price
+        return pricePerUnit * quantity;
+    }
+}
+
+
+
+public class OutOfStockException extends Exception {
+    public OutOfStockException(String message) {
+        super(message);
+    }
+}
+
+
+public class ProductNotFoundException extends Exception {
+    public ProductNotFoundException(String message) {
+        super(message);
+    }
+}
+
+
+public class InvalidAmountException extends Exception {
+    public InvalidAmountException(String message) {
+        super(message);
+    }
+}
+
+
+import java.util.List;
+import java.util.Scanner;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+public class Main {
+    private static final Logger LOGGER = Logger.getLogger(Main.class.getName());
+
+    public static void main(String[] args) {
+        // Create a store
+        Store store = new Store("MyStore");
+
+        // Create a service provider
+        IStoreServiceProvider serviceProvider = new StoreServiceProviderImpl(store);
+
+        // Add some products to the store
+        Product product1 = new Product(1, "Product 1", 10);
+        Product product2 = new Product(2, "Product 2", 5);
+        Product product3 = new Product(3, "Product 3", 8);
+
+        serviceProvider.addProduct(product1);
+        serviceProvider.addProduct(product2);
+        serviceProvider.addProduct(product3);
+
+        // Create a scanner for user input
+        Scanner scanner = new Scanner(System.in);
+
+        // Test the methods
+        try {
+            // Purchase a product
+            System.out.print("Enter product ID: ");
+            int productId = scanner.nextInt();
+            System.out.print("Enter quantity: ");
+            int quantity = scanner.nextInt();
+
+            double billAmount = serviceProvider.purchaseProduct(productId, quantity);
+            LOGGER.log(Level.INFO, "Bill amount: " + billAmount);
+
+            // Search for a product
+            System.out.print("Enter product ID to search: ");
+            int searchProductId = scanner.nextInt();
+
+            Product foundProduct = serviceProvider.searchProduct(searchProductId);
+            if (foundProduct != null) {
+                LOGGER.log(Level.INFO, "Found product: " + foundProduct.getProductName());
+            } else {
+                LOGGER.log(Level.INFO, "Product not found.");
+            }
+
+            // Get the sorted product list
+            List<Product> sortedList = serviceProvider.returnSortedList();
+            LOGGER.log(Level.INFO, "Sorted product list:");
+            for (Product product : sortedList) {
+                LOGGER.log(Level.INFO, product.getProductName());
+            }
+
+        } catch (OutOfStockException | ProductNotFoundException e) {
+            LOGGER.log(Level.SEVERE, e.getMessage());
+        } finally {
+            // Close the scanner
+            scanner.close();
+        }
+    }
+}
+
+
+
